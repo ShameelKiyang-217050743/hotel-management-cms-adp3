@@ -15,6 +15,18 @@ public class GuestRoom {
         this.bill=g.bill;
     }
 
+    public String getRoomNo() {
+        return roomNo;
+    }
+
+    public String getIdNo() {
+        return idNo;
+    }
+
+    public String getBill() {
+        return bill;
+    }
+
     @Override
     public String toString() {
         return "GuestRoom{" +

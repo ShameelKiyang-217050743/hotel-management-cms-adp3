@@ -14,6 +14,18 @@ public class DiningService {
         this.cost=builder.cost;
     }
 
+    public String getServiceType() {
+        return serviceType;
+    }
+
+    public String getTimeSlot() {
+        return timeSlot;
+    }
+
+    public String getCost() {
+        return cost;
+    }
+
     @Override
     public String toString() {
         return "DiningService{" +
